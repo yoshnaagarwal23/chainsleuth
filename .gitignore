@@ -1,0 +1,23 @@
+# Secrets: never commit
+.env
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+*.egg-info/
+
+# Generated data (keep folders, ignore contents)
+data/cache/*
+!data/cache/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# Foundry
+contracts/out/
+contracts/cache/
+broadcast/
+
+.DS_Store
